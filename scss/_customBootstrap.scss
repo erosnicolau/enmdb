@@ -1,0 +1,16 @@
+// main: app.scss
+
+input {
+  &[type="radio"], &[type="checkbox"] {
+    margin-right: .5rem;
+  }
+}
+
+.card-img-top {
+  height: 0;
+  padding-bottom: 150%;
+  overflow: hidden;
+  img {
+    max-width: 100%;
+  }
+}

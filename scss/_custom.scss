@@ -1,0 +1,49 @@
+// main: app.scss
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#app {
+  margin: 2rem 0;
+}
+
+.movie {
+  margin-bottom: $grid-gutter-width;
+  &.hidden {
+    display: none;
+  }
+  .text-muted {
+    font-size: .75rem;
+  }
+  .movieTitle {
+    font-weight: bold;
+  }
+
+  .movieGenres {
+    font-size: .75rem;
+    ul {
+      margin: 0;
+      li {
+        display: inline-block;
+        margin-right: .25rem;
+        &:not(:last-of-type){
+          &:after {
+            content: ", ";
+          }
+        }
+      }
+    }
+  }
+}
+
+.pagingContainer {
+  text-align: center;
+  ul {
+    margin: 1rem auto;
+  }
+  li{
+    display: inline-block;
+    padding: 0 .25rem;
+  }
+}
