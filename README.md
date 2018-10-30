@@ -25,7 +25,7 @@ Eros Nicolau Movies Database
 * Adding a "loading" spinner
 * Refining the init() action so as to only refresh the changed bits of the page (REACT style)
 * Drop jQuery alltogether
-* eliminate all traces of before ES6 code (like using classic functions instead of fat arrow functions)
+* Eliminate all traces of before ES6 code (like using classic functions instead of fat arrow functions)
 * Maybe treating Movies as instances of a Movie class / object
 
 ## Issues encountered:
